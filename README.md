@@ -10,12 +10,15 @@ This app solves the task required by AgileEngine for their interview.
 3. Obtain a valid Bearer token with valid API key (don't forget to implement invalid token handler and renewal)
 
 POST `http://interview.agileengine.com/auth`
+
 BODY: `{ "apiKey": "23567b218376f79d9415" }`
+
 RESPONSE: `{ "token": "ce09287c97bf310284be3c97619158cfed026004" }`
 
 4. The app should fetch paginated photo feed in JSON format with the following REST API call (GET):
 
 GET `/images`
+
 HEADERS: `{ Authorization: Bearer ce09287c97bf310284be3c97619158cfed026004 }`
 
 Following pages can be retrieved by appending ‘page=N’ parameter:
