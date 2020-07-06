@@ -43,6 +43,5 @@ B. UX/UI REQUIREMENTS:
 
 
 To consider:
-This app is very ugly. But hey! I'm a developer not a designer :)
 The share button required in B.3. will only display if the device-browser combo allows sharing.
 Images take a while to load, mostly in detail view but In grid view as well. My app and myself beg for your patience.
