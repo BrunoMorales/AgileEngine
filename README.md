@@ -1,7 +1,7 @@
 This app solves the task required by AgileEngine for their interview.
 
 
-A. REQUIREMENTS: 
+A. APP REQUIREMENTS: 
 1. We need to see your own code.
 
 2. The app should load and display photos from our API endpoint http://interview.agileengine.com
@@ -45,3 +45,13 @@ B. UX/UI REQUIREMENTS:
 To consider:
 The share button required in B.3. will only display if the device-browser combo allows sharing.
 Images take a while to load, mostly in detail view but In grid view as well. My app and myself beg for your patience.
+
+requirements:
+- Yarn
+    https://classic.yarnpkg.com/en/docs/install
+
+Steps to run:
+- yarn
+- yarn build
+- yarn start
+- open browser and go to localhost:3000
